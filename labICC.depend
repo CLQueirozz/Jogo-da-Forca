@@ -13,16 +13,22 @@
 	<string.h>
 	<time.h>
 
-1750088795 c:\users\luis9\labicc\labicc\verificaletra.h
+1750112500 c:\users\luis9\labicc\labicc\verificaletra.h
 	<stdio.h>
 	<stdlib.h>
 
-1750101523 c:\users\luis9\labicc\labicc\forcadesenhos.h
+1750113423 c:\users\luis9\labicc\labicc\forcadesenhos.h
 	"d·Dicas.h"
+	"instrucoes.h"
 	<stdio.h>
 	<stdlib.h>
 
 1750098771 c:\users\luis9\labicc\labicc\d·dicas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750113026 c:\users\luis9\labicc\labicc\instrucoes.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

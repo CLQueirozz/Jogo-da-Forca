@@ -4,8 +4,7 @@
 void zeraVetor(int n, int v[n]){
 int i;
     for(i=0; i<n; i++){
-            v[i]=0;}
-}
+            v[i]=0;} }
 
 char* inicializaVetor(int n, char chave[n], char x){
     int i;
@@ -46,15 +45,4 @@ int verificaLetra(char c, int num, char chave[num], char codificado[num], char x
 
     return d;}
 
-char fgetsChar(char *c){
-    fgets(c, 3, stdin);
-
-    int i=0;
-
-    for (i=0; i<3; i++){
-        if (c[i]=='\n')
-            c[i]='\0';
-        }
-    return (c[0]);
-}
 

@@ -1,11 +1,12 @@
 #include "d·Dicas.h"
+#include "instrucoes.h"
 #include <stdio.h>
 #include<stdlib.h>
 
 void desenhos(int qualDesenho, int dica, palavra teste){
 if (qualDesenho==1){
-    printf(" __________________________               \n");
-    printf(" |                        |               \n");
+    printf(" __________________________           %s  \n", instrucoes(1));
+    printf(" |                        |           %s  \n", instrucoes(2));
     printf(" |                                        \n");
     printf(" |                                        \n");
     printf(" |                                        \n");
@@ -32,8 +33,8 @@ if (qualDesenho==1){
 }
 
 if (qualDesenho==2){
-    printf(" __________________________               \n");
-    printf(" |                        |               \n");
+    printf(" __________________________           %s  \n", instrucoes(1));
+    printf(" |                        |           %s  \n", instrucoes(2));
     printf(" |                      ******            \n");
     printf(" |                    *        *          \n");
     printf(" |                  *            *        \n");
@@ -61,8 +62,8 @@ if (qualDesenho==2){
 }
 
 if (qualDesenho==3){
-    printf(" __________________________               \n");
-    printf(" |                        |               \n");
+    printf(" __________________________           %s  \n", instrucoes(1));
+    printf(" |                        |           %s  \n", instrucoes(2));
     printf(" |                      ******            \n");
     printf(" |                    *        *          \n");
     printf(" |                  *            *        \n");
@@ -89,8 +90,8 @@ if (qualDesenho==3){
 }
 
 if (qualDesenho==4){
-    printf(" __________________________               \n");
-    printf(" |                        |               \n");
+    printf(" __________________________           %s  \n", instrucoes(1));
+    printf(" |                        |           %s  \n", instrucoes(2));
     printf(" |                      ******            \n");
     printf(" |                    *        *          \n");
     printf(" |                  *            *        \n");
@@ -117,8 +118,8 @@ if (qualDesenho==4){
 }
 
 if (qualDesenho==5){
-    printf(" __________________________               \n");
-    printf(" |                        |               \n");
+    printf(" __________________________           %s  \n", instrucoes(1));
+    printf(" |                        |           %s  \n", instrucoes(2));
     printf(" |                      ******            \n");
     printf(" |                    *        *          \n");
     printf(" |                  *            *        \n");
@@ -145,8 +146,8 @@ if (qualDesenho==5){
 }
 
 if (qualDesenho==6){
-    printf(" __________________________               \n");
-    printf(" |                        |               \n");
+    printf(" __________________________           %s  \n", instrucoes(1));
+    printf(" |                        |           %s  \n", instrucoes(2));
     printf(" |                      ******            \n");
     printf(" |                    *        *          \n");
     printf(" |                  *            *        \n");
@@ -173,8 +174,8 @@ if (qualDesenho==6){
     }
 
 if (qualDesenho==7){
-    printf(" __________________________               \n");
-    printf(" |                        |               \n");
+    printf(" __________________________           %s  \n", instrucoes(1));
+    printf(" |                        |           %s  \n", instrucoes(2));
     printf(" |                      ******            \n");
     printf(" |                    *        *          \n");
     printf(" |                  *            *        \n");
@@ -197,7 +198,7 @@ if (qualDesenho==7){
     printf(" |                     *      *           \n");
     printf(" |                    *        *          \n");
     printf(" |                                        \n");
-    printf("                                          \n");
+    printf("    a palavra chave era '%s'              \n", teste.chave);
 
 
     }
