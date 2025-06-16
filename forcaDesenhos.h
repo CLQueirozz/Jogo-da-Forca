@@ -1,13 +1,8 @@
 #include <stdio.h>
 #include<stdlib.h>
-int main(){
 
-int forca=0;
-
-while (1){
-scanf("%d", &forca);
-if (forca==0){
-    system("cls");
+void desenhos(int qualDesenho){
+if (qualDesenho==0){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                                        \n");
@@ -32,10 +27,10 @@ if (forca==0){
     printf(" |                                        \n");
     printf(" |                                        \n");
     printf(" |                                        \n");
+    printf("                                          \n");
 }
 
-if (forca==1){
-    system("cls");
+if (qualDesenho==1){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -60,11 +55,11 @@ if (forca==1){
     printf(" |                                        \n");
     printf(" |                                        \n");
     printf(" |                                        \n");
+    printf("                                          \n");
 
 }
 
-if (forca==2){
-    system("cls");
+if (qualDesenho==2){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -89,10 +84,10 @@ if (forca==2){
     printf(" |                                        \n");
     printf(" |                                        \n");
     printf(" |                                        \n");
+    printf("                                          \n");
 }
 
-if (forca==3){
-    system("cls");
+if (qualDesenho==3){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -117,10 +112,10 @@ if (forca==3){
     printf(" |                     *                  \n");
     printf(" |                    *                   \n");
     printf(" |                                        \n");
+    printf("                                          \n");
 }
 
-    if (forca==4){
-    system("cls");
+if (qualDesenho==4){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -145,11 +140,10 @@ if (forca==3){
     printf(" |                     *      *           \n");
     printf(" |                    *        *          \n");
     printf(" |                                        \n");
-
+    printf("                                          \n");
 }
 
-    if (forca==5){
-    system("cls");
+if (qualDesenho==5){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -174,10 +168,10 @@ if (forca==3){
     printf(" |                     *      *           \n");
     printf(" |                    *        *          \n");
     printf(" |                                        \n");
+    printf("                                          \n");
     }
 
-if (forca==6){
-    system("cls");
+if (qualDesenho==6){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -202,14 +196,9 @@ if (forca==6){
     printf(" |                     *      *           \n");
     printf(" |                    *        *          \n");
     printf(" |                                        \n");
+    printf("                                          \n");
 
 
+    }
 }
 
-if (forca==7)
-    break;
-}
-
-return 0;
-
-}

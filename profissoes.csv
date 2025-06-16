@@ -1,0 +1,101 @@
+profissao,numero_de_letras,material
+medico,6,estetoscopio
+cientista,9,tubo de ensaio
+professor,9,quadro
+engenheiro,10,capacete
+arquiteto,9,regua
+padeiro,7,forno
+motorista,9,volante
+bombeiro,8,mangueira
+policial,8,algema
+advogado,8,codigo civil
+jornalista,10,gravador
+fotografo,9,camera
+musico,6,instrumento
+ator,4,roteiro
+biologo,7,microscopio
+psicologo,9,caderno
+veterinario,11,seringa
+quimico,7,balanca
+tecnico,7,ferramenta
+pedreiro,8,colher de pedreiro
+pintor,6,pincel
+costureira,10,agulha
+cozinheiro,10,faca
+barbeiro,8,tesoura
+carpinteiro,11,martelo
+eletricista,11,alicate
+encanador,9,chave inglesa
+marceneiro,10,serrote
+analista,8,computador
+programador,11,teclado
+designer,8,software grafico
+secretario,10,agenda
+contador,8,calculadora
+bibliotecario,13,livro
+dublador,8,microfone
+locutor,7,mesa de som
+piloto,6,aviao
+aeromoca,8,carrinho de bordo
+caminhoneiro,12,caminhao
+garcom,6,bandeja
+zelador,7,vassoura
+faxineiro,9,rodo
+porteiro,8,interfone
+operador,8,maquina
+minerador,9,picareta
+jardineiro,10,flores
+vendedor,8,maquininha
+magico,6,cartas
+quimico,7,frasco
+bancario,8,terminal
+economista,10,grafico
+meteorologista,14,radar
+corretor,8,contrato
+detetive,8,lupa
+guarda,6,apito
+marinheiro,10,bussola
+soldado,7,arma
+juiz,4,martelo
+fisico,6,equacoes
+editor,6,texto
+cineasta,8,camera
+diretor,7,claquete
+programador,11,editor de codigo
+youtuber,8,ring light
+streamer,8,webcam
+podcaster,9,microfone
+modelo,6,roupa
+manicure,8,lixa
+esteticista,11,creme
+psiquiatra,10,receituario
+enfermeiro,10,termometro
+radiologista,12,raio x
+cirurgiao,9,bisturi
+massagista,10,oleo
+terapeuta,9,sofa
+biomedico,9,centrifuga
+farmaceutico,12,remedio
+tatuador,8,maquina de tatuagem
+cinegrafista,12,filmadora
+dublador,8,roteiro
+engenheiro civil,16,planta
+engenheiro eletrico,19,circuito
+engenheiro de software,22,codigo
+administrador,13,planilha
+recursos humanos,16,curriculo
+publicitario,12,anuncio
+marketeiro,10,campanha
+pesquisador,11,artigo
+roteirista,10,script
+tradutor,8,dicionario
+interprete,10,fone
+escritor,8,caneta
+poeta,5,papel
+pintor artistico,16,tinta
+escultor,8,cinzel
+artesao,7,materiais
+ourives,7,ouro
+relojoeiro,10,rel0gio
+sapateiro,9,couro
+costureiro,10,linha

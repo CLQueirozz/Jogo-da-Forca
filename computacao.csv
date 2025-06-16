@@ -1,0 +1,102 @@
+Nome,Numero de Letras,Dica
+vetor,5,estrutura de dados unidimensional
+ada lovelace,11,primeira programadora
+alan turing,10,pai da computacao moderna
+loop,4,estrutura de repeticao
+pilha,5,estrutura LIFO
+fila,4,estrutura FIFO
+ponteiro,8,endereco de memoria
+algoritmo,9,sequencia de instrucoes
+bug,3,erro no programa
+debug,5,processo de correcao de erro
+byte,4,8 bits
+bit,3,menor unidade de informacao
+compilador,10,transforma codigo em linguagem de maquina
+interpretador,13,executa o codigo linha por linha
+python,6,linguagem de programacao popular
+java,4,linguagem multiplataforma
+c,1,linguagem estruturada classica
+c++,3,linguagem com orientacao a objetos
+javascript,10,linguagem do navegador
+html,4,marca estrutura de paginas web
+css,3,estiliza paginas web
+sql,3,linguagem de banco de dados
+http,4,protocolo da web
+https,5,versao segura do protocolo da web
+api,3,interface para integracoes
+rest,4,estilo de arquitetura web
+json,4,formato leve de dados
+xml,3,formato extensivel de dados
+linux,5,sistema operacional de codigo aberto
+windows,7,sistema operacional da microsoft
+macos,5,sistema operacional da apple
+git,3,controle de versao
+github,6,plataforma de repositorio
+terminal,8,interface de linha de comando
+shell,5,interpretador de comandos
+tcp,3,protocolo de transmissao
+ip,2,protocolo de enderecamento
+dns,3,resolve nomes para ip
+firewall,8,protege a rede
+criptografia,12,codifica informacao
+hash,4,resumo criptografico
+machine learning,15,aprendizado de maquina
+deep learning,12,aprendizado profundo
+rede neural,10,modelo inspirado no cerebro
+big data,7,grande volume de dados
+cloud computing,14,computacao em nuvem
+docker,6,containers para aplicacoes
+kubernetes,10,orquestracao de containers
+virtualizacao,13,emula hardware
+api rest,7,comunicacao entre sistemas
+engenharia de software,20,desenvolvimento de sistemas
+arquitetura de software,21,estrutura de sistemas
+poo,3,programacao orientada a objetos
+estrutura de dados,16,organiza dados para eficiencia
+sistema operacional,18,interface com o hardware
+hardware,8,parte fisica do computador
+software,8,programas de computador
+cpu,3,unidade central de processamento
+gpu,3,processamento grafico
+memoria ram,10,memoria volatil
+hd,2,armazenamento magnetico
+ssd,3,armazenamento rapido
+banco de dados,12,armazenamento estruturado
+normalizacao,12,otimizacao de bancos
+chave primaria,13,identificador unico
+join,4,une tabelas
+sql injection,12,ataque a banco de dados
+engenharia reversa,17,analisar sem codigo-fonte
+ci cd,4,integracao e entrega continua
+devops,6,integracao dev e ops
+agile,5,metodologia iterativa
+scrum,5,metodo agil com sprints
+kanban,6,quadro visual de tarefas
+uml,3,linguagem de modelagem
+diagrama de classes,17,estrutura de objetos
+diagrama de casos de uso,20,interacoes do sistema
+inteligencia artificial,22,simula raciocinio humano
+token,5,autenticacao
+oauth,5,padrao de autorizacao
+framework,9,estrutura reutilizavel
+biblioteca,10,colecao de funcoes
+stack overflow,13,forum de programacao
+ide,3,ambiente de desenvolvimento
+visual studio,12,ide da microsoft
+pycharm,7,ide para python
+notebook jupyter,15,ambiente interativo
+ciencia de dados,14,analise de dados
+engenharia de dados,17,infraestrutura de dados
+seguranca da informacao,21,protege dados
+redes de computadores,19,comunicacao entre maquinas
+ipv4,4,protocolo com 32 bits
+ipv6,4,protocolo com 128 bits
+cache,5,memoria de acesso rapido
+thread,6,unidade de execucao
+processo,8,programa em execucao
+sistema distribuido,18,execucao em varios computadores
+mensageria,10,comunicacao assincrona
+fila de mensagens,15,armazena mensagens temporariamente
+mqtt,4,protocolo leve de mensagens
+websocket,9,comunicacao bidirecional
+zlib,4,compressao de dados

@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1750089075 source:c:\users\luis9\labicc\labicc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lêArquivo.h"
+	"verificaLetra.h"
+	"forcaDesenhos.h"
+
+1750085410 c:\users\luis9\labicc\labicc\lêarquivo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1750088795 c:\users\luis9\labicc\labicc\verificaletra.h
+	<stdio.h>
+	<stdlib.h>
+
+1750087479 c:\users\luis9\labicc\labicc\forcadesenhos.h
+	<stdio.h>
+	<stdlib.h>
+
