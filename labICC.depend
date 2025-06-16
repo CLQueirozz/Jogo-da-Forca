@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1750089075 source:c:\users\luis9\labicc\labicc\main.c
+1750101433 source:c:\users\luis9\labicc\labicc\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -7,7 +7,7 @@
 	"verificaLetra.h"
 	"forcaDesenhos.h"
 
-1750085410 c:\users\luis9\labicc\labicc\lêarquivo.h
+1750098715 c:\users\luis9\labicc\labicc\lêarquivo.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -17,7 +17,13 @@
 	<stdio.h>
 	<stdlib.h>
 
-1750087479 c:\users\luis9\labicc\labicc\forcadesenhos.h
+1750101523 c:\users\luis9\labicc\labicc\forcadesenhos.h
+	"dáDicas.h"
 	<stdio.h>
 	<stdlib.h>
+
+1750098771 c:\users\luis9\labicc\labicc\dádicas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
 

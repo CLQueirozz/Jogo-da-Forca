@@ -1,47 +1,20 @@
+#include "d·Dicas.h"
 #include <stdio.h>
 #include<stdlib.h>
 
-void desenhos(int qualDesenho){
-if (qualDesenho==0){
-    printf(" __________________________               \n");
-    printf(" |                        |               \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf(" |                                        \n");
-    printf("                                          \n");
-}
-
+void desenhos(int qualDesenho, int dica, palavra teste){
 if (qualDesenho==1){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
-    printf(" |                      ******            \n");
-    printf(" |                    *        *          \n");
-    printf(" |                  *            *        \n");
-    printf(" |                 *              *       \n");
-    printf(" |                 *              *       \n");
-    printf(" |                 *              *       \n");
-    printf(" |                  *            *        \n");
-    printf(" |                    *        *          \n");
-    printf(" |                      ******            \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
     printf(" |                                        \n");
     printf(" |                                        \n");
     printf(" |                                        \n");
@@ -56,7 +29,6 @@ if (qualDesenho==1){
     printf(" |                                        \n");
     printf(" |                                        \n");
     printf("                                          \n");
-
 }
 
 if (qualDesenho==2){
@@ -71,6 +43,35 @@ if (qualDesenho==2){
     printf(" |                  *            *        \n");
     printf(" |                    *        *          \n");
     printf(" |                      ******            \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf(" |                                        \n");
+    printf("                                          \n");
+
+}
+
+if (qualDesenho==3){
+    printf(" __________________________               \n");
+    printf(" |                        |               \n");
+    printf(" |                      ******            \n");
+    printf(" |                    *        *          \n");
+    printf(" |                  *            *        \n");
+    printf(" |                 *              *       \n");
+    printf(" |                 *              *       \n");
+    printf(" |                 *              *       \n");
+    printf(" |                  *            *        \n");
+    printf(" |                    *        *          \n");
+    printf(" |                      ******            \n");
     printf(" |                        **              \n");
     printf(" |                        **              \n");
     printf(" |                        **              \n");
@@ -87,7 +88,7 @@ if (qualDesenho==2){
     printf("                                          \n");
 }
 
-if (qualDesenho==3){
+if (qualDesenho==4){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -115,7 +116,7 @@ if (qualDesenho==3){
     printf("                                          \n");
 }
 
-if (qualDesenho==4){
+if (qualDesenho==5){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -143,7 +144,7 @@ if (qualDesenho==4){
     printf("                                          \n");
 }
 
-if (qualDesenho==5){
+if (qualDesenho==6){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -171,7 +172,7 @@ if (qualDesenho==5){
     printf("                                          \n");
     }
 
-if (qualDesenho==6){
+if (qualDesenho==7){
     printf(" __________________________               \n");
     printf(" |                        |               \n");
     printf(" |                      ******            \n");
@@ -200,5 +201,39 @@ if (qualDesenho==6){
 
 
     }
+
+    if (dica==2){
+    printf(" __________________________                                                              \n");
+    printf(" |                        |                                                              \n");
+    printf(" |                                                   *                                   \n");
+    printf(" |                                                  * *                                  \n");
+    printf(" |             *         *    ***        *****    *******                                \n");
+    printf(" |              *       *   *     *     *         *                                      \n");
+    printf(" |               *     *   *       *   *          ******                                 \n");
+    printf(" |                *   *    *       *   *          *                                      \n");
+    printf(" |                 * *      *     *     *         *                                      \n");
+    printf(" |                  *         ***        *****    *******                                \n");
+    printf(" |                                                                                       \n");
+    printf(" |                                                                                       \n");
+    printf(" |         *        ******   *******   ****    *******     ***       *      *   | | |    \n");
+    printf(" |        * *      *         *         *   *      *      *     *     *      *   | | |    \n");
+    printf(" |       *   *    *          ******    ****       *     *       *    *      *   | | |    \n");
+    printf(" |      *******   *          *         * *        *     *       *    *      *   | | |    \n");
+    printf(" |     *       *   *         *         *  *       *      *     *     *      *   | | |    \n");
+    printf(" |    *         *   ******   *******   *   *      *        ***        ******    * * *    \n");
+    printf(" |                                                                                       \n");
+    printf(" |                                                                                       \n");
+    printf(" |               A palavra chave era '%s' !                                              \n", teste.chave);
+    printf(" |                                                                                       \n");
+    printf(" |                                                                                       \n");
+    printf(" |                                                                                       \n");
+    printf(" |                                                                                       \n");
+
+
+
+
+    }
+    if ((qualDesenho!=7) && (dica==1))
+        daDica(teste);
 }
 

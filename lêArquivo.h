@@ -70,7 +70,7 @@ palavra devolveStruct(char* linha){
     token= strtok(NULL, ",");
     resposta.num = atoi(token);
 
-    token= strtok(NULL, ",");
+    token= strtok(NULL, "\n");
     strcpy (resposta.dica, token);
 
     return resposta;}

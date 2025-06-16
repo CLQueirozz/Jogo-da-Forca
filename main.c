@@ -5,7 +5,6 @@
 #include "verificaLetra.h"
 #include "forcaDesenhos.h"
 
-
 int main(){
     int categoria;
     printf("Escolha uma categoria:\n");
@@ -25,11 +24,12 @@ int main(){
     char* codificado= inicializaVetor(teste.num, teste.chave, '#');
 
     char c;
-    int d=0;
+    int d=1;
+    int a=0;
 
     while(1){
 
-        desenhos(d);
+        desenhos(d, a, teste);
         printf("%s\n", codificado);
 
         scanf(" %c", &c);
@@ -40,10 +40,24 @@ int main(){
             return 0;
         }
 
+        if (c=='@'){
+            a=1;
+            continue;
+        }
+
         d=d+verificaLetra(c, teste.num, teste.chave, codificado, '#');
 
-        if (d==6){
-            desenhos(d);
+        if(strchr(codificado,'#')==NULL){
+            a=2;
+            d=10;
+            desenhos(d, a, teste);
+            free (frase);
+            free(codificado);
+            return 0;}
+
+
+        if (d==7){
+            desenhos(d, a, teste);
             printf("GAME OVER \n");
             free (frase);
             free(codificado);
