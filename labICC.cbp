@@ -31,7 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="dáDicas.h" />
 		<Unit filename="forcaDesenhos.h" />
+		<Unit filename="instrucoes.h" />
 		<Unit filename="lêArquivo.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />

@@ -35,7 +35,7 @@ int main(){
         scanf(" %c", &c);
 
         if (c=='*'){
-            free (frase);
+            free(frase);
             free(codificado);
             return 0;
         }

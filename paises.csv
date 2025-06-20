@@ -6,9 +6,9 @@ espanha,7,sagrada familia
 portugal,8,pastel de nata
 china,5,muralha da china
 japao,5,monte fuji
-coreia do sul,11,k-pop
+coreia do sul,12,k-pop
 australia,9,opera de sydney
-nova zelandia,12,senhor dos aneis
+nova zelandia,13,senhor dos aneis
 canada,6,cataratas do niagara
 mexico,6,chichen itza
 argentina,9,tango
@@ -32,7 +32,7 @@ egito,5,piramides
 marrocos,8,deserto do saara
 argelia,7,costa mediterranea
 nigeria,7,afrobeat
-africa do sul,11,table mountain
+africa do sul,13,table mountain
 angola,6,petroleo
 mocambique,10,ilhas tropicais
 india,5,taj mahal
@@ -45,8 +45,8 @@ filipinas,9,ilhas paradisiacas
 indonesia,9,bali
 malasia,7,petronas
 singapura,9,cidade futurista
-emirados arabes,14,burj khalifa
-arabia saudita,13,meca
+emirados arabes,15,burj khalifa
+arabia saudita,14,meca
 ira,3,persopolis
 iraque,6,mesopotamia
 israel,6,muro das lamentacoes
@@ -65,7 +65,7 @@ uzbequistao,11,samarkand
 afeganistao,11,montanhas
 paquistao,9,karakoram
 bangladesh,10,densidade populacional
-sri lanka,8,cha
+sri lanka,9,cha
 maldivas,8,resorts aquaticos
 seychelles,10,praias de luxo
 madagascar,10,biodiversidade
@@ -86,16 +86,16 @@ sudao,5,cartum
 tunisia,7,ruinas romanas
 libia,5,tripoli
 guine,5,conacri
-cabo verde,9,ilhas africanas
+cabo verde,10,ilhas africanas
 jamaica,7,reggae
 cuba,4,havana
 haiti,5,caribe
-republica dominicana,19,punta cana
+republica dominicana,20,punta cana
 panama,6,canal
-costa rica,9,biodiversidade
+costa rica,10,biodiversidade
 guatemala,9,civilizacao maia
 honduras,8,ruinas de copan
-el salvador,10,vulcoes
+el salvador,11,vulcoes
 nicaragua,9,lago nicaragua
 bolivia,7,salar de uyuni
 paraguai,8,itaipu

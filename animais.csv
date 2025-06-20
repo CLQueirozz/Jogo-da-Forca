@@ -1,4 +1,114 @@
-animal,num_letras,dica
+// Processing CSV files to count spaces in the number of letters column
+
+// Function to count total characters including spaces
+function countWithSpaces(text) {
+    return text.length;
+}
+
+// Updated alimentos.csv
+const alimentosUpdated = `limao,5,azedo
+bolo red velvet,15,doce vermelho
+arroz,5,acompanha feijao
+feijao,6,rico em ferro
+macarrao,8,massa italiana
+pizza,5,com queijo e molho
+hamburguer,10,pao e carne e queijo
+sushi,5,comida japonesa
+batata frita,12,crocante e salgada
+salada,6,folhas e legumes
+frango assado,13,carne de ave
+lasanha,7,massa em camadas
+torta de maca,12,doce americano
+sorvete,7,gelado e doce
+manga,5,fruta tropical
+abacaxi,7,fruta com coroa
+morango,7,vermelho e doce
+uva,3,fruta de cacho
+banana,6,rica em potassio
+melancia,8,grande e suculenta
+abacate,7,cremoso e verde
+pessego,7,fruta aveludada
+ameixa,6,fruta roxa
+pera,4,forma de gota
+kiwi,4,verde por dentro
+coco,4,duro por fora
+cenoura,7,raiz alaranjada
+beterraba,9,tinge a comida
+brocolis,8,parece arvore
+espinafre,9,favorito do popeye
+alface,6,folha de salada
+tomate,6,vermelho e suculento
+pepino,6,verde e fresco
+chuchu,6,muito neutro
+alho,4,forte e picante
+cebola,6,faz chorar
+azeitona,8,preta ou verde
+milho,5,tem espiga
+ervilha,7,bolinhas verdes
+lentilha,8,parecida com feijao
+grao de bico,12,usado em homus
+tofu,4,proteina vegetal
+tempeh,6,fermentado de soja
+pao integral,12,rico em fibras
+pao de queijo,13,tipico de minas
+bolo de cenoura,15,com cobertura de chocolate
+brigadeiro,10,doce de festa
+beijinho,8,doce com coco
+quindim,7,amarelo e doce
+pudim,5,tem calda de caramelo
+cuscuz,6,tipico do nordeste
+tapioca,7,feita com goma
+farofa,6,vai com churrasco
+carne seca,10,salga e conserva
+bacalhau,8,peixe portugues
+sardinha,8,peixe pequeno
+atum,4,peixe enlatado
+salmao,6,peixe rosado
+camarao,7,fruto do mar
+lula,4,molusco com tentaculos
+polvo,5,oito bracos
+carne bovina,12,vem da vaca
+carne suina,11,vem do porco
+linguica,8,embutido temperado
+presunto,8,usado em sanduiches
+queijo,6,derrete no forno
+requeijao,9,cremoso e branco
+manteiga,8,vai no pao
+iogurte,7,fermentado com leite
+leite,5,branco e liquido
+ovo,3,vem da galinha
+granola,7,vai no iogurte
+aveia,5,rica em fibras
+cereal,6,com leite de manha
+mel,3,feito por abelhas
+chocolate,9,amargo ou ao leite
+cafe,4,preto e forte
+cha verde,9,infusao saudavel
+agua de coco,12,bebida tropical
+suco de laranja,15,rico em vitamina c
+refrigerante,12,bebida gaseificada
+cerveja,7,bebida fermentada
+vinho,5,bebida de uva
+pipoca,6,estoura no fogo
+biscoito,8,crocante doce ou salgado
+salgadinho,10,snack industrializado
+bala,4,doce de bolso
+pirulito,8,doce no palito
+gelatina,8,colorida e mole
+frutas secas,12,sem agua
+castanha,8,fruto oleaginoso
+amendoim,8,vai na festa junina
+noz,3,dura por fora
+pistache,8,verde por dentro
+amendoa,7,usada em leite vegetal
+pacoca,6,doce de amendoim
+cajuzinho,9,doce de festa
+cocada,6,doce de coco
+doce de leite,13,feito com leite e acucar
+melado,6,feito da cana`;
+
+// Updated animais.csv
+const animaisUpdated = `animal,num_letras,dica
 girafa,6,alto
 porco,5,sujo
 gato,4,independente
