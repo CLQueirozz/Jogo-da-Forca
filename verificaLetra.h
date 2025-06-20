@@ -1,48 +1,62 @@
 #include <stdio.h>
 #include<stdlib.h>
 
-void zeraVetor(int n, int v[n]){
-int i;
-    for(i=0; i<n; i++){
-            v[i]=0;} }
 
-char* inicializaVetor(int n, char chave[n], char x){
-    int i;
+//essa função inicializa cada objeto de um vetor inteiro como '0'
+    void zeraVetor(int n, int v[n]){
+        int i;
+        for(i=0; i<n; i++)
+            v[i]=0;
+    }
 
-    char *codificado;
-    codificado= (char*)calloc(n,sizeof(char));
+//essa função recebe a resposta da forca e devolve uma string compatível porém codificada
+    char* inicializaVetor(int n, char chave[n]){
+        int i;
 
-    for(i=0; i<n; i++){
-            if (chave[i]!=' ')
-                codificado[i]=x;
-            else
-                codificado[i]=' '; }
+        //cria e inicializa o codificado
+            char *codificado;
+            codificado= (char*)calloc(n,sizeof(char));
 
-    return (codificado);}
+        for(i=0; i<n; i++){
+            //se não for espaço na resposta, coloca '#' no codificado
+                if (chave[i]!=' ')
+                    codificado[i]='#';
 
-int verificaLetra(char c, int num, char chave[num], char codificado[num], char x){
-    int posicao[num];
-    int d=0;
-    int a=0;
+            //se for espaço na resposta, deixa espaço no codificado
+                else
+                    codificado[i]=' '; }
 
-    zeraVetor(num, posicao);
-    int i;
+        return (codificado);
+    }
 
-    for(i=0; i<num; i++){
-            if(c==chave[i])
+//essa função recebe o chute do usuário e verifica se ele está presente na resposta
+    int verificaLetra(char letra, int num, char reposta[num], char codificado[num]){
+
+        int posicao[num];
+        int desenho=0;
+        int acertos=0;
+
+    //inicialmente, posicao precisa ser todo 0
+        zeraVetor(num, posicao);
+
+    //se a letra chute estiver presente na resposta, a posicao dessa letra vira 1
+        for(int i=0; i<num; i++){
+            if(letra==reposta[i])
                 posicao[i]=1;}
 
-     for(i=0; i<num; i++){
-            if (posicao[i]==1 && codificado[i]==x)
-                codificado[i]=c;}
+    //se a posicao é 1, e ainda tem o '#' no codificado, aquela posicao do codificado vira a letra correta
+    //se existir alguma posicao 1, significa que o usuario acertou, então a gente incrementa o int acertos
+        for(int i=0; i<num; i++){
+            if (posicao[i]==1){
+                acertos++;
+                if (codificado[i]=='#')
+                    codificado[i]=letra;
+            }
+        }
+    //se não houve nenhum acertos, o desenho da forca vai ter q ser atualizado
+        if (acertos==0)
+            desenho=1;
 
-    for (i=0; i<num; i++)
-        if (posicao[i]==1)
-            a++;
-
-    if (a==0)
-        d=1;
-
-    return d;}
+    return desenho;}
 
 

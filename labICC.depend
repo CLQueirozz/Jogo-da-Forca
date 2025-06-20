@@ -1,24 +1,25 @@
 # depslib dependency file v1.0
-1750440130 source:c:\users\luis9\labicc\labicc\main.c
+1750448092 source:c:\users\luis9\labicc\labicc\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
-	"lêArquivo.h"
+	<ctype.h>
+	"leArquivo.h"
 	"verificaLetra.h"
 	"forcaDesenhos.h"
 
-1750098715 c:\users\luis9\labicc\labicc\lêarquivo.h
+1750444696 c:\users\luis9\labicc\labicc\lêarquivo.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<time.h>
 
-1750112500 c:\users\luis9\labicc\labicc\verificaletra.h
+1750448069 c:\users\luis9\labicc\labicc\verificaletra.h
 	<stdio.h>
 	<stdlib.h>
 
-1750113423 c:\users\luis9\labicc\labicc\forcadesenhos.h
-	"dáDicas.h"
+1750446218 c:\users\luis9\labicc\labicc\forcadesenhos.h
+	"daDicas.h"
 	"instrucoes.h"
 	<stdio.h>
 	<stdlib.h>
@@ -28,7 +29,18 @@
 	<stdlib.h>
 	<string.h>
 
-1750113026 c:\users\luis9\labicc\labicc\instrucoes.h
+1750446045 c:\users\luis9\labicc\labicc\instrucoes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750448530 c:\users\luis9\labicc\labicc\learquivo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1750448541 c:\users\luis9\labicc\labicc\dadicas.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

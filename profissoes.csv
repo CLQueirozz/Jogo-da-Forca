@@ -1,4 +1,3 @@
-profissao,numero_de_letras,material
 medico,6,estetoscopio
 cientista,9,tubo de ensaio
 professor,9,quadro
@@ -79,11 +78,11 @@ farmaceutico,12,remedio
 tatuador,8,maquina de tatuagem
 cinegrafista,12,filmadora
 dublador,8,roteiro
-engenheiro civil,16,planta
-engenheiro eletrico,19,circuito
-engenheiro de software,22,codigo
+engenheiro civil,17,planta
+engenheiro eletrico,20,circuito
+engenheiro de software,23,codigo
 administrador,13,planilha
-recursos humanos,16,curriculo
+recursos humanos,17,curriculo
 publicitario,12,anuncio
 marketeiro,10,campanha
 pesquisador,11,artigo
@@ -92,10 +91,10 @@ tradutor,8,dicionario
 interprete,10,fone
 escritor,8,caneta
 poeta,5,papel
-pintor artistico,16,tinta
+pintor artistico,17,tinta
 escultor,8,cinzel
 artesao,7,materiais
 ourives,7,ouro
-relojoeiro,10,rel0gio
+relojoeiro,10,relogio
 sapateiro,9,couro
 costureiro,10,linha

@@ -16,7 +16,6 @@ chile,5,deserto do atacama
 peru,4,machu picchu
 colombia,8,cafe famoso
 venezuela,9,salto angel
-eua,3,estatua da liberdade
 inglaterra,10,big ben
 irlanda,7,trifolio
 escocia,7,gaita de fole
@@ -56,7 +55,6 @@ jordania,8,petra
 libano,6,beirute
 russia,6,kremlin
 ucrania,7,kiev
-bielorrussia,12,minsk
 georgia,7,tbilisi
 armenia,7,igrejas antigas
 azerbaijao,10,torres flamejantes
@@ -68,7 +66,7 @@ bangladesh,10,densidade populacional
 sri lanka,9,cha
 maldivas,8,resorts aquaticos
 seychelles,10,praias de luxo
-madagascar,10,biodiversidade
+madagascar,10,eu me remexo muito
 quenia,6,safari
 tanzania,8,kilimanjaro
 etiopia,7,origem da humanidade
@@ -81,12 +79,11 @@ congo,5,rio congo
 senegal,7,dakar
 mali,4,timbuktu
 niger,5,saara
-chade,5,lago chade
+equador,7,quito
 sudao,5,cartum
 tunisia,7,ruinas romanas
-libia,5,tripoli
 guine,5,conacri
-cabo verde,10,ilhas africanas
+paraguai,8,itaipu
 jamaica,7,reggae
 cuba,4,havana
 haiti,5,caribe
@@ -98,8 +95,6 @@ honduras,8,ruinas de copan
 el salvador,11,vulcoes
 nicaragua,9,lago nicaragua
 bolivia,7,salar de uyuni
-paraguai,8,itaipu
 uruguai,7,montevideo
-equador,7,linha do equador
 suriname,8,amazonia
 guiana,6,ingles caribenho

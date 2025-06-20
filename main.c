@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "lêArquivo.h"
+#include <ctype.h>
+#include "leArquivo.h"
 #include "verificaLetra.h"
 #include "forcaDesenhos.h"
 
 int main(){
     int categoria;
+
     printf("Escolha uma categoria:\n");
     printf("1-Personagens\n");
     printf("2-Alimentos\n");
@@ -17,52 +19,61 @@ int main(){
 
     scanf("%d", &categoria);
 
-    char* frase=leArq(categoria);
+    //palavra é o struct q contém a resposta, o número de caracteres da resposta e uma dica
+    //esse struct está declarado em leArquivo.h
+        palavra gabarito=devolveStruct(leArq(categoria));
 
-    palavra teste = devolveStruct(frase);
+    //codificado é a string omitida da resposta. Por exemplo, se a resposta fosse computador, o
+    //codificado seria ##########. A medida que o usuário for acertandoo letras, nós trocamos os
+    //'#' pela letra correta
+        char* codificado=inicializaVetor(gabarito.num, gabarito.chave);
 
-    char* codificado= inicializaVetor(teste.num, teste.chave, '#');
+    char letra; //armazena o chute do usuário
 
-    char c;
-    int d=1;
-    int a=0;
+    int qualDesenho=1;   //parâmetro de qual desenho tem que ser feito
+    int dica=0;          //parâmetro de se o usuário pediu uma dica
+    int ganhou=0;        //parâmetro de se o usuário ganhou ou não
 
-    while(1){
+    int quit=1;           //parãmetro de se o usuário deu quit
 
-        desenhos(d, a, teste);
-        printf("%s\n", codificado);
+    while(quit){
+        //roda a tela de desenhos
+            desenhos(qualDesenho, dica, ganhou, gabarito, codificado);
 
-        scanf(" %c", &c);
+        //pega o chute do usuário
+            scanf(" %c", &letra);
+            letra = tolower(letra);
 
-        if (c=='*'){
-            free(frase);
-            free(codificado);
-            return 0;
-        }
+        //esse é o código para quitar o jogo
+            if (letra=='*'){
+                free(codificado);
+                quit=0;
+                continue; //obviamente, não é pra testar se * faz parte da palavra
+            }
 
-        if (c=='@'){
-            a=1;
-            continue;
-        }
+        //esse é o código para dar dica
+            if (letra=='@'){
+                dica=1;
+                continue; //obviamente, não é pra testar se @ faz parte da palavra
+            }
 
-        d=d+verificaLetra(c, teste.num, teste.chave, codificado, '#');
+        //essa função não só muda o codificado, como também devolve 1 se o usuario errou um chute, e 0 se ele acertou
+            if (verificaLetra(letra, gabarito.num, gabarito.chave, codificado))
+                qualDesenho++;
 
-        if(strchr(codificado,'#')==NULL){
-            a=2;
-            d=10;
-            desenhos(d, a, teste);
-            free (frase);
-            free(codificado);
-            return 0;}
+        //se não tiver mais nenhum #, significa que o usuario acertou a palavra toda, então ele ganhou
+            if(strchr(codificado,'#')==NULL){
+                ganhou=1;
+                desenhos(qualDesenho, dica, ganhou, gabarito, codificado);
+                break;}
 
+        //se o qualDesenho chegou a 7, então o usuário se esgotou de chutes, então ele perdeu
+            if (qualDesenho==7){
+                desenhos(qualDesenho, dica, ganhou, gabarito, codificado);
+                break;
+            }
+    }
 
-        if (d==7){
-            desenhos(d, a, teste);
-            printf("GAME OVER \n");
-            free (frase);
-            free(codificado);
-            return 0;}
-        }
-
+    free(codificado);
     return 0;
 }
