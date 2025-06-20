@@ -13,9 +13,9 @@ int main(){
     printf("1-Personagens\n");
     printf("2-Alimentos\n");
     printf("3-Paises\n");
-    printf("4-Computação\n");
+    printf("4-Computacao\n");
     printf("5-Animais\n");
-    printf("6-Profissões\n");
+    printf("6-Profissoes\n");
 
     scanf("%d", &categoria);
 
@@ -38,7 +38,7 @@ int main(){
 
     while(quit){
         //roda a tela de desenhos
-            desenhos(qualDesenho, dica, ganhou, gabarito, codificado);
+            desenhos(qualDesenho, dica, ganhou, gabarito, codificado, categoria);
 
         //pega o chute do usuário
             scanf(" %c", &letra);
@@ -46,7 +46,6 @@ int main(){
 
         //esse é o código para quitar o jogo
             if (letra=='*'){
-                free(codificado);
                 quit=0;
                 continue; //obviamente, não é pra testar se * faz parte da palavra
             }
@@ -64,12 +63,12 @@ int main(){
         //se não tiver mais nenhum #, significa que o usuario acertou a palavra toda, então ele ganhou
             if(strchr(codificado,'#')==NULL){
                 ganhou=1;
-                desenhos(qualDesenho, dica, ganhou, gabarito, codificado);
+                desenhos(qualDesenho, dica, ganhou, gabarito, codificado, categoria);
                 break;}
 
         //se o qualDesenho chegou a 7, então o usuário se esgotou de chutes, então ele perdeu
             if (qualDesenho==7){
-                desenhos(qualDesenho, dica, ganhou, gabarito, codificado);
+                desenhos(qualDesenho, dica, ganhou, gabarito, codificado, categoria);
                 break;
             }
     }

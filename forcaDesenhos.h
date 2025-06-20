@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void desenhos(int qualDesenho, int dica, int ganhou, palavra teste, char* codificado){
+void desenhos(int qualDesenho, int dica, int ganhou, palavra teste, char* codificado, int categoria){
 
 printf("\n\n\n\n\n\n");
 
@@ -38,10 +38,10 @@ if (ganhou==1){
 
 else{
     if (qualDesenho==1){
-        printf(" __________________________           %s  \n", instrucoes(1));
-        printf(" |                        |           %s  \n", instrucoes(2));
-        printf(" |                                        \n");
-        printf(" |                                        \n");
+        printf(" __________________________           %s  \n", instrucoes(categoria));
+        printf(" |                        |               \n");
+        printf(" |                                    %s  \n", instrucoes(7));
+        printf(" |                                    %s  \n", instrucoes(8));
         printf(" |                                        \n");
         printf(" |                                        \n");
         printf(" |                                        \n");
@@ -66,10 +66,10 @@ else{
     }
 
     if (qualDesenho==2){
-        printf(" __________________________           %s  \n", instrucoes(1));
-        printf(" |                        |           %s  \n", instrucoes(2));
-        printf(" |                      ******            \n");
-        printf(" |                    *        *          \n");
+        printf(" __________________________           %s  \n", instrucoes(categoria));
+        printf(" |                        |               \n");
+        printf(" |                      ******        %s  \n", instrucoes(7));
+        printf(" |                    *        *      %s  \n", instrucoes(8));
         printf(" |                  *            *        \n");
         printf(" |                 *              *       \n");
         printf(" |                 *              *       \n");
@@ -94,10 +94,10 @@ else{
     }
 
     if (qualDesenho==3){
-        printf(" __________________________           %s  \n", instrucoes(1));
-        printf(" |                        |           %s  \n", instrucoes(2));
-        printf(" |                      ******            \n");
-        printf(" |                    *        *          \n");
+        printf(" __________________________           %s  \n", instrucoes(categoria));
+        printf(" |                        |               \n");
+        printf(" |                      ******        %s  \n", instrucoes(7));
+        printf(" |                    *        *      %s  \n", instrucoes(8));
         printf(" |                  *            *        \n");
         printf(" |                 *              *       \n");
         printf(" |                 *              *       \n");
@@ -122,10 +122,10 @@ else{
     }
 
     if (qualDesenho==4){
-        printf(" __________________________           %s  \n", instrucoes(1));
-        printf(" |                        |           %s  \n", instrucoes(2));
-        printf(" |                      ******            \n");
-        printf(" |                    *        *          \n");
+        printf(" __________________________           %s  \n", instrucoes(categoria));
+        printf(" |                        |               \n");
+        printf(" |                      ******        %s  \n", instrucoes(7));
+        printf(" |                    *        *      %s  \n", instrucoes(8));
         printf(" |                  *            *        \n");
         printf(" |                 *              *       \n");
         printf(" |                 *              *       \n");
@@ -150,10 +150,10 @@ else{
 }
 
     if (qualDesenho==5){
-        printf(" __________________________           %s  \n", instrucoes(1));
-        printf(" |                        |           %s  \n", instrucoes(2));
-        printf(" |                      ******            \n");
-        printf(" |                    *        *          \n");
+        printf(" __________________________           %s  \n", instrucoes(categoria));
+        printf(" |                        |               \n");
+        printf(" |                      ******        %s  \n", instrucoes(7));
+        printf(" |                    *        *      %s  \n", instrucoes(8));
         printf(" |                  *            *        \n");
         printf(" |                 *              *       \n");
         printf(" |                 *              *       \n");
@@ -178,10 +178,10 @@ else{
     }
 
     if (qualDesenho==6){
-        printf(" __________________________           %s  \n", instrucoes(1));
-        printf(" |                        |           %s  \n", instrucoes(2));
-        printf(" |                      ******            \n");
-        printf(" |                    *        *          \n");
+        printf(" __________________________           %s  \n", instrucoes(categoria));
+        printf(" |                        |               \n");
+        printf(" |                      ******        %s  \n", instrucoes(7));
+        printf(" |                    *        *      %s  \n", instrucoes(8));
         printf(" |                  *            *        \n");
         printf(" |                 *              *       \n");
         printf(" |                 *              *       \n");
