@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1750697594 source:c:\users\luis9\labicc\labicc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"leArquivo.h"
+	"verificaLetra.h"
+	"interfacegrafica.h"
+
+1750444696 c:\users\luis9\labicc\labicc\lêarquivo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1750698261 c:\users\luis9\labicc\labicc\verificaletra.h
+	<stdio.h>
+	<stdlib.h>
+
+1750450288 c:\users\luis9\labicc\labicc\forcadesenhos.h
+	"daDicas.h"
+	"instrucoes.h"
+	<stdio.h>
+	<stdlib.h>
+
+1750098771 c:\users\luis9\labicc\labicc\dádicas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750545132 c:\users\luis9\labicc\labicc\instrucoes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750545818 c:\users\luis9\labicc\labicc\learquivo.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1750448541 c:\users\luis9\labicc\labicc\dadicas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750697902 c:\users\luis9\labicc\labicc\interfacegrafica.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
