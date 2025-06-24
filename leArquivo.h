@@ -11,7 +11,7 @@
     }palavra;
 
 
-char* leArq(int categoria) {
+palavra leArq(int categoria) {
     FILE*arquivo;
     int numlin;
     int num=1;
@@ -53,37 +53,32 @@ char* leArq(int categoria) {
 
     if (arquivo == NULL){
         printf("Erro ao abrir o arquivo da categoria %d\n", categoria);
-        return NULL; }
+    }
 
     //encontra qual a linha que vai ser lida de acordo com o rand
         while(fgets(linha, sizeof(linha), arquivo) != NULL){
             if (num == numlin)
-                return strdup(linha);
+                break;
             num++;
         }
 
     fclose(arquivo);
-    return NULL;
-    }
 
+    char* token;
 
-//recebe a string do leArq e devolve ela em formato do struct palavra
-    palavra devolveStruct(char* linha){
-        char* token;
+    palavra resposta;
 
-        palavra resposta;
+    resposta.chave= (char*)calloc(150, sizeof(char));
+    resposta.dica= (char*)calloc(150, sizeof(char));
 
-        resposta.chave= (char*)calloc(150, sizeof(char));
-        resposta.dica= (char*)calloc(150, sizeof(char));
+    token= strtok(linha, ",");
+    strcpy (resposta.chave, token);
 
-        token= strtok(linha, ",");
-        strcpy (resposta.chave, token);
+    token= strtok(NULL, ",");
+    resposta.num = atoi(token);
 
-        token= strtok(NULL, ",");
-        resposta.num = atoi(token);
+    token= strtok(NULL, "\n");
+    strcpy (resposta.dica, token);
 
-        token= strtok(NULL, "\n");
-        strcpy (resposta.dica, token);
-
-        return resposta;
+    return resposta;
     }

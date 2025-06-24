@@ -30,7 +30,7 @@
     }
 
 //essa função recebe o chute do usuário e verifica se ele está presente na resposta
-    int verificaLetra(char letra, int num, char reposta[num], char codificado[num]){
+    int verificaLetra(char letra, int num, char reposta[num], char codificado[num], char* descartadas){
 
         int posicao[num];
         int desenho=0;
@@ -53,9 +53,26 @@
                     codificado[i]=letra;
             }
         }
-    //se não houve nenhum acertos, o desenho da forca vai ter q ser atualizado
-        if (acertos==0)
-            desenho=1;
+    //se não houve nenhum acertos...
+        int tam;
+        if (acertos==0){
+            //devolve 1 para que a forca mude
+                desenho=1;
+
+            //atualiza a lista de letras erradas
+                if(descartadas[0]=='*'){                //para o primeiro erro
+                    descartadas[0]=letra;
+                }
+
+            else{                                       //para erros subsequentes
+                if(strchr(descartadas, letra)==NULL){   //verifica se a letra já não está na lista para não ficar repetitivo
+                    tam=strlen(descartadas);
+                    descartadas[tam]=',';
+                    descartadas[tam+1]=' ';
+                    descartadas[tam+2]=letra;
+                    descartadas[tam+3]='\0';}
+            }
+        }
 
     return desenho;}
 
