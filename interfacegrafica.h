@@ -74,6 +74,12 @@
 
 //desenha na tela
 void desenhos(parametrosDeTela par, palavra resposta){
+// limpa a tela
+#ifdef _WIN32
+    system("cls");    // Windows
+#else
+    system("clear");  // Linux / macOS
+#endif
 
 printf("\n\n\n\n\n\n");
 
@@ -311,5 +317,4 @@ else{
         }
     }
 }
-
 

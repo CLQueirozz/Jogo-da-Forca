@@ -2,8 +2,8 @@ vetor,5,estrutura de dados unidimensional
 ada lovelace,12,primeira programadora
 alan turing,11,pai da computacao moderna
 loop,4,estrutura de repeticao
-pilha,5,estrutura LIFO
-fila,4,estrutura FIFO
+pilha,5,coloca-se nas coisas para funcionar
+fosorio,7,elon musk
 ponteiro,8,endereco de memoria
 algoritmo,9,sequencia de instrucoes
 bug,3,erro no programa
@@ -12,10 +12,10 @@ byte,4,8 bits
 bit,3,menor unidade de informacao
 compilador,10,transforma codigo em linguagem de maquina
 interpretador,13,executa o codigo linha por linha
-python,6,linguagem de programacao popular
-java,4,linguagem multiplataforma
+python,6,linguagem de programacao mais popular
+java,4,pior linguagem do mundo
 c,1,linguagem estruturada classica
-c++,3,linguagem com orientacao a objetos
+c mais mais,11,linguagem com orientacao a objetos
 javascript,10,linguagem do navegador
 html,4,marca estrutura de paginas web
 css,3,estiliza paginas web
