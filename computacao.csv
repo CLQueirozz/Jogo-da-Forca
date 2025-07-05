@@ -1,15 +1,19 @@
 vetor,5,estrutura de dados unidimensional
 ada lovelace,12,primeira programadora
 alan turing,11,pai da computacao moderna
-loop,4,estrutura de repeticao
+codeblocks,10, lugar para programar c 
 pilha,5,coloca-se nas coisas para funcionar
 fosorio,7,elon musk
 ponteiro,8,endereco de memoria
 algoritmo,9,sequencia de instrucoes
 bug,3,erro no programa
-debug,5,processo de correcao de erro
 byte,4,8 bits
 bit,3,menor unidade de informacao
+debug,5,processo de correcao de erro
+main,4,funcao principal do programa
+stdlib,6,biblioteca padrao de c
+int,3,tipo de dados inteiro
+float,5,tipo de dados decimal
 compilador,10,transforma codigo em linguagem de maquina
 interpretador,13,executa o codigo linha por linha
 python,6,linguagem de programacao mais popular
@@ -50,7 +54,6 @@ virtualizacao,13,emula hardware
 api rest,8,comunicacao entre sistemas
 engenharia de software,21,desenvolvimento de sistemas
 arquitetura de software,22,estrutura de sistemas
-poo,3,programacao orientada a objetos
 estrutura de dados,17,organiza dados para eficiencia
 sistema operacional,19,interface com o hardware
 hardware,8,parte fisica do computador
@@ -63,10 +66,7 @@ ssd,3,armazenamento rapido
 banco de dados,13,armazenamento estruturado
 normalizacao,12,otimizacao de bancos
 chave primaria,14,identificador unico
-join,4,une tabelas
-sql injection,13,ataque a banco de dados
 engenharia reversa,18,analisar sem codigo-fonte
-ci cd,5,integracao e entrega continua
 devops,6,integracao dev e ops
 agile,5,metodologia iterativa
 scrum,5,metodo agil com sprints
@@ -77,7 +77,6 @@ diagrama de casos de uso,21,interacoes do sistema
 inteligencia artificial,23,simula raciocinio humano
 token,5,autenticacao
 oauth,5,padrao de autorizacao
-framework,9,estrutura reutilizavel
 biblioteca,10,colecao de funcoes
 stack overflow,14,forum de programacao
 ide,3,ambiente de desenvolvimento
@@ -88,13 +87,14 @@ ciencia de dados,15,analise de dados
 engenharia de dados,18,infraestrutura de dados
 seguranca da informacao,22,protege dados
 redes de computadores,20,comunicacao entre maquinas
-ipv6,4,protocolo com 128 bits
-cache,5,memoria de acesso rapido
-thread,6,unidade de execucao
-processo,8,programa em execucao
-sistema distribuido,19,execucao em varios computadores
-mensageria,10,comunicacao assincrona
-fila de mensagens,16,armazena mensagens temporariamente
-mqtt,4,protocolo leve de mensagens
-websocket,9,comunicacao bidirecional
-zlib,4,compressao de dados
+struct,6,estrutura de dados em c
+calloc,6,aloca memoria zerada
+malloc,6,aloca memoria dinamica
+typedef,7,define novo tipo de dados
+for loop,8,estrutura de repeticao com contador
+while loop,10,estrutura de repeticao com condicao
+arquivo csv,11,formato de dados separados por virgula
+double,6,tipo de dados decimal dupla precisao
+char,4,tipo de dados caractere
+printf,6,funcao para imprimir na tela
+scanf,5,funcao para ler entrada do usuario

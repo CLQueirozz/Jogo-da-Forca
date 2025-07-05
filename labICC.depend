@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1750699023 source:c:\users\luis9\labicc\labicc\main.c
+1751661028 source:c:\users\luis9\labicc\labicc\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -14,7 +14,7 @@
 	<string.h>
 	<time.h>
 
-1750699003 c:\users\luis9\labicc\labicc\verificaletra.h
+1751661028 c:\users\luis9\labicc\labicc\verificaletra.h
 	<stdio.h>
 	<stdlib.h>
 
@@ -45,7 +45,7 @@
 	<stdlib.h>
 	<string.h>
 
-1751490492 c:\users\luis9\labicc\labicc\interfacegrafica.h
+1751660598 c:\users\luis9\labicc\labicc\interfacegrafica.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

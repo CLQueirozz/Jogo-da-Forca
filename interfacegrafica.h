@@ -61,17 +61,6 @@
         return "";
     }
 
-//dá dicas
-    void daDica(palavra resposta){
-
-        char* dica;
-        dica = (char*)calloc(150, sizeof(char));
-
-        strcpy(dica, resposta.dica);
-
-        printf(">>> DICA: %s <<<\n", dica); }
-
-
 //desenha na tela
 void desenhos(parametrosDeTela par, palavra resposta){
 // limpa a tela
@@ -80,9 +69,6 @@ void desenhos(parametrosDeTela par, palavra resposta){
 #else
     system("clear");  // Linux / macOS
 #endif
-
-printf("\n\n\n\n\n\n");
-
 if (par.ganhou==1){
     printf(" __________________________                                                              \n");
     printf(" |                        |                                                              \n");
@@ -282,7 +268,7 @@ else{
         }
 
     if ((par.qualDesenho!=7) && (par.dica==1))
-        daDica(resposta);
+        printf(">>> DICA: %s <<<\n", resposta.dica);
 
     if (par.qualDesenho!=7){
         printf("%s\n", par.codificado);

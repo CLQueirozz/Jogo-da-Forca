@@ -9,25 +9,6 @@
             v[i]=0;
     }
 
-//essa função recebe a resposta da forca e devolve uma string compatível porém codificada
-    char* inicializaVetor(int n, char chave[n]){
-        int i;
-
-        //cria e inicializa o codificado
-            char *codificado;
-            codificado= (char*)calloc(n,sizeof(char));
-
-        for(i=0; i<n; i++){
-            //se não for espaço na resposta, coloca '#' no codificado
-                if (chave[i]!=' ')
-                    codificado[i]='#';
-
-            //se for espaço na resposta, deixa espaço no codificado
-                else
-                    codificado[i]=' '; }
-
-        return (codificado);
-    }
 
 //essa função recebe o chute do usuário e verifica se ele está presente na resposta
     int verificaLetra(char letra, int num, char reposta[num], char codificado[num], char* descartadas){

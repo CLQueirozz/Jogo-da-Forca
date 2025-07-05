@@ -6,6 +6,27 @@
 #include "verificaLetra.h"
 #include "interfacegrafica.h"
 
+
+//essa função recebe a resposta da forca e devolve uma string compatível porém codificada
+    char* inicializaVetor(int n, char chave[n]){
+        int i;
+
+        //cria e inicializa o codificado
+            char *codificado;
+            codificado= (char*)calloc(n,sizeof(char));
+
+        for(i=0; i<n; i++){
+            //se não for espaço na resposta, coloca '#' no codificado
+                if (chave[i]!=' ')
+                    codificado[i]='#';
+
+            //se for espaço na resposta, deixa espaço no codificado
+                else
+                    codificado[i]=' '; }
+
+        return (codificado);
+    }
+
 int main(){
 
     //esse é o struct que guarda informações importantes para as telas de forca
